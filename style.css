@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(235, 233, 233, 0.986);
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid grey;
+    
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto ;
+}
+
+nav {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto ;
+    margin-top: 2px;
+    width: 1000px;
+}
+
+.section1{
+    width: 400px;
+}
+
+.section2{
+    width: 400px;
+}
+
+aside{
+    background-color: white;
+    width: 200px;
+    margin-left: 0px;
+}
+
+aside h3{
+    align-items: center;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: gainsboro;
+    height: 200px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+}
+
+img{      
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.img_aside{
+    width: 150px;
+}
